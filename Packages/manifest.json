@@ -40,6 +40,18 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0"
-  }
+    "com.unity.modules.xr": "1.0.0",
+    "com.meta.xr.sdk.audio": "57.0.0-preview",
+    "com.meta.xr.sdk.interaction.ovr": "57.0.0-preview",
+    "com.meta.xr.sdk.utilities": "57.0.0-preview"
+  },
+  "scopedRegistries": [
+    {
+      "name": "Meta XR",
+      "url": "https://npm.developer.oculus.com",
+      "scopes": [
+        "com.meta.xr"
+      ]
+    }
+  ]
 }
